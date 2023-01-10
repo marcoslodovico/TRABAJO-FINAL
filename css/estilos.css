@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    display: flex;
+   background-color: aqua;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    
+    font-size: 35px;
+    font-weight: 700;
+    margin: 12px 0px;
+    
+
+}
+a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+.facebook{
+    margin-left: 5px;
+}
+.twitter{
+    margin-left: 5px;
+}
+.instagram{
+    margin-left: 5px;
+}
