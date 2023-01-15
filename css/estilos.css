@@ -8,15 +8,17 @@ body{
 }
 header{
     display: flex;
-   background-color: aqua;
+    margin: 0px 180px;
+   
     justify-content: space-around;
     align-items: center;
 }
 .logo{
     
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     margin: 12px 0px;
+    
     
 
 }
@@ -34,4 +36,75 @@ a{
 }
 .instagram{
     margin-left: 5px;
+}
+/*ACA TERMINA EL HEADER */
+.hero{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F5DF4E;
+    padding: 200px 190px;
+    align-items: center;
+    
+}
+.divfotomia{
+    
+
+}
+.fotomia{
+    height: 480px;
+    width: 96%;
+    border-radius: 50%;
+    border: 15px solid white
+}
+.freelancer{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+
+/* DEVELOPER DIV EMPIEZA ACA */
+.h1developer{
+    font-size: 100px;
+}
+
+
+
+.divrectangulodeveloper{
+    background-color: black ;
+    width: 15px;
+    height: 94px;
+    opacity: 0.10;
+    
+}
+.divdeveloperh1yrectangulo{
+    display: flex;
+    align-items: center;
+}
+.divh1developer{
+    margin-right: 10px;
+}
+/* developer div termina aca */
+.divbotonysvgycontactame{
+    display: flex;
+    align-items: center;
+}
+.radicado{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.svgflecha{
+    width: 3%;
+}
+.contactameA{
+    text-decoration: underline;
+    margin-right: 10px;
+}
+.buttonmistrabajos{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: black;
+    color: whitesmoke;
+    width: 40%;
+    height: 60px;
 }
