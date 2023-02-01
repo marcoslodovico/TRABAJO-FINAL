@@ -111,7 +111,10 @@ a{
 /* ACA TERMINA EL HERO */
 
 .section2{
-    padding: 0px 190px;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .p_acercademi{
@@ -119,7 +122,7 @@ a{
     text-align: center;
     background-color: #F5DF4E;
     margin-left: 47%;
-    margin-top: 100px;
+    
     margin-bottom: 10px;
     font-weight: 500;
     
@@ -175,6 +178,10 @@ a{
     
     
 }
+.div_spanmesesdxp{
+    width: 200px;
+
+}
 .span3div{
     background-color: #F5DF4E;
     display: flex;
@@ -189,6 +196,7 @@ a{
 }
 .p_mesesdeexp{
     font-size: 30px;
+    
     
    
   
@@ -209,4 +217,27 @@ color: #4C4D4D;
 .p_abajodatos{
     font-size: 18px;
     font-weight: 600;
+}
+/* TERMINA SECTION 2 */
+.section3{
+    
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #F8F9FA;
+}
+
+.p_qesloqhago{
+margin: 0 auto;
+background-color: #F5DF4E;
+width: 160px;
+font-weight: 500;
+margin-bottom: 10px;
+}
+.h1_comotpuedoayudar{
+text-align: center;
+font-size: 40px;
+}
+/* CONTENEDOR DE SKILLS COMIENZA */
+.DIV_SKILLSCONTENEDOR{
+    display: flex;
 }
