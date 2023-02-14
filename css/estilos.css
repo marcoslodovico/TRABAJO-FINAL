@@ -1,243 +1,260 @@
 *{
     margin: 0;
-    padding:0;
-
-}
-body{
-    font-family: 'Open Sans', sans-serif;
-}
-header{
-    display: flex;
-    margin: 0px 180px;
-   
-    justify-content: space-around;
-    align-items: center;
-}
-.logo{
-    
-    font-size: 30px;
-    font-weight: 700;
-    margin: 12px 0px;
-    
-    
-
-}
-a{
-    margin-left: 20px;
-    text-decoration: none;
-    font-weight: 600;
-    color: black;
-}
-.facebook{
-    margin-left: 5px;
-}
-.twitter{
-    margin-left: 5px;
-}
-.instagram{
-    margin-left: 5px;
-}
-/*ACA TERMINA EL HEADER */
-.hero{
-    display: flex;
-    justify-content: space-around;
-    background-color: #F5DF4E;
-    padding: 200px 190px;
-    align-items: center;
-    
-}
-.divfotomia{
-    
-
-}
-.fotomia{
-    height: 480px;
-    width: 96%;
-    border-radius: 50%;
-    border: 15px solid white
-}
-.freelancer{
-    font-size: 40px;
-    font-weight: 300;
-}
-
-
-/* DEVELOPER DIV EMPIEZA ACA */
-.h1developer{
-    font-size: 100px;
-}
-
-
-
-.divrectangulodeveloper{
-    background-color: black ;
-    width: 15px;
-    height: 94px;
-    opacity: 0.10;
-    
-}
-.divdeveloperh1yrectangulo{
-    display: flex;
-    align-items: center;
-}
-.divh1developer{
-    margin-right: 10px;
-}
-/* developer div termina aca */
-.divbotonysvgycontactame{
-    display: flex;
-    align-items: center;
-}
-.radicado{
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 40px;
-}
-.svgflecha{
-    width: 3%;
-}
-.contactameA{
-    text-decoration: underline;
-    margin-right: 10px;
-}
-.buttonmistrabajos{
-    font-size: 18px;
-    font-weight: 600;
-    background-color: black;
-    color: whitesmoke;
-    width: 40%;
-    height: 60px;
-}
-/* ACA TERMINA EL HERO */
-
-.section2{
-    padding-left: 190px;
-    padding-right: 190px;
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.p_acercademi{
-    width: 100px;
-    text-align: center;
-    background-color: #F5DF4E;
-    margin-left: 47%;
-    
-    margin-bottom: 10px;
-    font-weight: 500;
-    
-}
-
-.h1_conoceme{
-    text-align: center;
-    font-size: 40px;
-}
-.contenedoracercademi{
-    margin-bottom: 40px;
-
-}
-
-.contenedorholasoymarcos{
-    display: flex;
-    align-items: center;
-    
-    margin-left: 100px;
-    margin-right: 150px;
-   
-    
-    
-}
- .h2_holasoymarcos{
-    font-size: 35px;
-    font-weight: lighter;
-
+    padding: 0;
+     
  }
- .nombrespan{
-    font-weight: 600;
-    
+ body{
+     font-family: 'Open Sans', sans-serif;
  }
- .hrmarcoshola{
-    width: 23.5%;
-    height: 3px;
-    margin-left: 12.5%;
-    background-color: #F5DF4E;
-    border-color: #F5DF4E;
-    margin-bottom: 20px;
+ /* ACA EMPIEZA EL HEADER */
+ header{
+     background-color: #F8F9FA;
+     
+     display: flex;
+     justify-content: space-around;
+     padding: 10px 180px;
+    
+     
+     
+     align-items: center;
  }
-.p_soyundiseñador{
-    font-size: 21px;
-    width: 80%;
-    line-height: 40px;
-}
-.span_3{
-    font-size: 130px;
-    color: #4C4D4D;
-    margin-bottom: 10px;
-    font-weight: 600;
-    
-    
-    
-}
-.div_spanmesesdxp{
-    width: 200px;
-
-}
-.span3div{
-    background-color: #F5DF4E;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100%;
-    width: 125px;
-    height: 125px;
-    margin-right: 50px;
-    margin-bottom: 20px;
-    margin-top: 30px;
-}
-.p_mesesdeexp{
-    font-size: 30px;
-    
-    
-   
+ header h1{
+     font-size: 30px;
+     font-weight: 700;
+     
+ }
+ header i{
+     font-size: 20px;
+     color: black;
+ }
+ .A_nav{
+     text-decoration: none;
+     font-weight: 600;
+     color: black;
+     padding: 0px 10px;
+ }
+ .A_SVGSOCIAL{
+     margin-left: 10px;
+     text-decoration: none;
+ }
+ 
+ /* ACA TERMINA EL HEADER */
+ /* COMIENZA HERO */
+ 
+ .hero{
+     background-color: #EEE8AA;
+     display: flex;
+     padding: 150px 300px;
+     align-items: center;
+     justify-content: space-between;
+ }
+ 
+ .hero img{
+     height: 480px;
+     width: 96%;
+     border-radius: 50%;
+     border: 15px solid white
+ }
+ .hero h2{
+     font-size: 2.5rem;
+     font-weight: 300;
+     
+ }
+ .hero h1{
+     font-size: 6.5rem;
+     margin-left: 0px;
+     margin-top: 10px;
+     margin-bottom: 10px;
+ }
+ .hero p{
+     font-size: 20px;
+     font-weight: 400;
+     padding-left: 1px;
+     margin-bottom: 40px;
+ }
+ 
+ .DIV_botonhero{
+     display: flex;
+     align-items: center;
+ }
+ .hero button{
+     font-size: 18px;
+     font-weight: 600;
+     background-color: black;
+     color: whitesmoke;
+     width: 220px;
+     height: 60px;
+     margin-right: 40px;
+ 
+ }
+ .contactame{
+ color: black;
+ font-weight: bold;
+ margin-right: 10px;
+ }
+ .hero i{
+     font-size: 1rem;
+ }
+ /* TERMINA EL HERO */
+ /* EMPIEZA SECTION acerca de mi */
+ 
+ .section_acercademi{
+     padding: 120px 300px;
+ }
+ 
+ .p_acercademi{
+     
+     background-color: #EEE8AA;
+     width: 100px;
+     margin: 0 auto;
+     font-weight: 500;
+     padding: 5px;
+     font-size: 1rem;
+ 
+ }
+ .h1_conocememas{
+     font-size: 2.5rem;
+     text-align: center;
+     margin-bottom: 50px;
+ }
+  .DIV_HolaSoyAñosxp{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 50px;
+  }
+  .DIV_HolaSoyAñosxp h2{
+     font-size: 2rem;
+     font-weight: lighter;
+     margin-bottom: 20px;
+  }
+  .span_marcos{
+     font-weight: 600;
+     text-decoration: underline;
+     text-decoration-color: #EEE8AA;
+     
+     
+     text-underline-position: under;
+ 
+  }
+  .div_holasoymar{
+     width: 60%;
+     
+  }
+  .div_holasoymar p{
+     line-height: 40px;
+     font-size: 21px;
+     text-align: justify;
+     
+  }
+  .div_mesesxp{
+     display: flex;
+     
+     flex-direction: column;
+     justify-content: center;
+     align-items: center; 
+     width: 300px;
+     
+     }
+     .div_mesesxp div{
+         background-color: #EEE8AA;
+         border-radius: 100%;
+         width: 125px;
+         height: 125px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         margin-bottom: 30px;
+         
+         
+     }
+ 
   
-    
-}
-.div_datos{
-    display: flex;
-    justify-content: space-around;
-    margin-right: 100px;
-    margin-left: 26px;
-    padding-top: 80px;
-}
-.p_arribadatos{
-font-size: 18px;
-color: #4C4D4D;
+  .div_mesesxp span{
+     font-size: 9rem;
+     color: #4C4D4D;
+     font-weight: 600;
+     
+     border-radius: 50%;
+     position: static;
+ 
+  }
+  .div_mesesxp p{
+     font-size: 1.5rem;
+  }
+ 
+ .DIV_DATOSACERCADEMI{
+     display: flex;
+     justify-content: space-between;
+ }
+  
+ .p_arribadatos{
+     font-size: 18px;
+     color: #4C4D4D;
+     
+ }
+ .p_abajodatos{
+         font-size: 18px;
+         font-weight: 600;
+     }
+ 
+     /* TERMINA SECTION ACERCA DE MI,
+     EMPIEZA SECTION SERVICIOS */
+ 
+ .servicios{
+     background-color: #F8F9FA;
+     padding: 120px
+ }
+     .p_queesloqhago{
+     background-color: #EEE8AA;
+     width: 170px;
+     margin: 0 auto;
+     font-weight: 500;
+     padding: 5px;
+     font-size: 1rem;
+     text-align: center;
+     margin-bottom: 10px;
+ }
+ .servicios h1{
+     text-align: center;
+     font-size: 2.5rem;
+ }
+ 
+ .div_skillz{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-around;
+     margin: 0 250px;
+ }
+ .div_skillz div{
+     width: 20%;
+     padding: 40px;
+     height: 200px;
+     margin-bottom: 100px;
+     text-align: center;
+ }
+ 
+ .div_skillz i{
+     font-size: 4rem;
+     color: #EEE8AA;
+ }
+ .div_skillz h2{
+     text-align: center;
+     margin-bottom: 20px;
+     }
+ .div_skillz p{
+     font-size: 16px;
+     line-height: 30px;
+     text-align: center;
+     }
+ 
 
-}
-.p_abajodatos{
-    font-size: 18px;
-    font-weight: 600;
-}
-/* TERMINA SECTION 2 */
-.section3{
-    
-    padding-top: 120px;
-    padding-bottom: 120px;
-    background-color: #F8F9FA;
-}
 
-.p_qesloqhago{
-margin: 0 auto;
-background-color: #F5DF4E;
-width: 160px;
-font-weight: 500;
-margin-bottom: 10px;
-}
-.h1_comotpuedoayudar{
-text-align: center;
-font-size: 40px;
-}
-/* CONTENEDOR DE SKILLS COMIENZA */
-.DIV_SKILLSCONTENEDOR{
-    display: flex;
-}
+
+
+
+
+    
+
+
