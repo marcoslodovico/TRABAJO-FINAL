@@ -390,17 +390,48 @@
         margin: 0 auto;
         font-weight: 500;
         padding: 5px;
+        margin-left: 640px;
         font-size: 1rem;
-         text-align: center;
+         
         margin-bottom: 10px;
        }
        .Algunodemisproyectosrecientes{
         text-align: center;
         font-size: 2.5rem;
+        padding-right: 90px;
+        margin-bottom: 50px;
        }
        .galeriadeimagenes{
         background-color: #F8F9FA;
-        padding: 120px 300px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+        padding-left: 300px;
+        padding-right: 250px;
+       }
+       .div_pgaleria{
+        display: flex;
+        justify-content: center;
+       }
+       .galeriadeimagenes img{
+        width: 30%;
+        height: 400px;
+        margin-top: 20px;
+        margin-right: 20px;
+       }
+       .contenedorimagenes{
+        
+        flex-wrap: wrap;
+        
+        justify-content: center;
+        align-items: center;
+       }
+       .p_todo{
+        font-weight: 600;
+        
+       }
+       .div_pgaleria p{
+        padding-right: 30px;
+        color: grey;
        }
 
 
