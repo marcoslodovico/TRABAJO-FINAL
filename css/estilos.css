@@ -14,6 +14,8 @@
      justify-content: space-around;
      padding: 10px 180px;
     
+     position: fixed;
+    width: 82%;
      
      
      align-items: center;
@@ -248,8 +250,254 @@
      line-height: 30px;
      text-align: center;
      }
- 
 
+     /* TERMINA SECTION SERVICIOS, EMPIEZA CV */
+ 
+     .p_CV{
+        background-color: #EEE8AA;
+     width: 30px;
+     margin: 0 auto;
+     font-weight: 500;
+     padding: 5px;
+     font-size: 1rem;
+     text-align: center;
+     margin-bottom: 10px;
+     }
+
+     .cv{
+        padding-top: 120px;
+        padding-bottom: 120px;
+        padding-left: 300px;
+        padding-right: 200px;
+     }
+     .cv h2{
+        font-size: 2rem;
+        margin-bottom: 30px;
+     }
+     .div_mieducacion{
+        display: flex;
+        
+        
+     }
+     .h2_edu{
+        margin-right: 486px;
+
+     }
+
+     .div_contenedorprimeraparte_CV{
+        display: flex;
+        align-content: center;
+        
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+        
+        
+        
+     }
+     
+     .div_contenedorprimeraparte_CV hr{
+        margin: 0;
+        width: 99%;
+     }
+     .p_titulocarrera{
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+     }
+     .p_nombreinstitucion{
+        margin-bottom: 10px;
+     }
+     .p_textoeducacion{
+        color: grey;
+        margin-bottom: 20px;
+     }
+     .div_ladoizquierdo_CV{
+        width: 45%;
+        margin-right: 60px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-left: #EEE8AA solid;
+        
+           
+       }
+       .div_ladoizquierdo_CV div{
+        margin-bottom: 20px;
+       
+        margin-left: 15px;
+       }
+       
+       .div_contenedorgeneraldeprogressbars{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+       }
+       .div_contenedor_cada_progressbar{
+        margin-right: 65px;
+        margin-bottom: 30px;
+        
+       }
+       
+      
+       .fondoprogressbar{
+        background-color: grey;
+        width: 635px;
+        height: 10px;
+        border-radius: 10px;
+       }
+
+       .div_progressbar{
+        background-color: #EEE8AA;
+        height: 10px;
+        border-radius: 10px;
+       }
+
+
+       .div_span_p_progresbar{
+        display: flex;
+        justify-content: space-between;
+
+       }
+
+       .p_titulo_progressbar{
+        margin-bottom: 10px;
+       font-weight: 600;
+       }
+
+       .span_numero_progressbar{
+        font-weight: 600;
+       }
+
+       .cv button{
+        width: 220px;
+        height: 60px;
+       
+        color: black;
+        background-color: white;
+        font-size: 1rem;
+        font-weight: 600;
+
+       }
+
+       .div_buttoncv{
+        display: flex;
+        justify-content: center;
+       }
+       /* TERMINA CV, EMPIEZA GALERIA DE FOTOS */
+       .p_portfolio{
+        background-color: #EEE8AA;
+        width: 65px;
+        margin: 0 auto;
+        font-weight: 500;
+        padding: 5px;
+        font-size: 1rem;
+         text-align: center;
+        margin-bottom: 10px;
+       }
+       .Algunodemisproyectosrecientes{
+        text-align: center;
+        font-size: 2.5rem;
+       }
+       .galeriadeimagenes{
+        background-color: #F8F9FA;
+        padding: 120px 300px;
+       }
+
+
+
+       /* TERMINA GALERIA, EMPIEZA FOOTER */
+
+       .footer{
+        display: flex;
+        padding: 120px 300px;
+        background-color: #EEE8AA;
+       }
+       .h2_pongamonosencontak{
+        font-size: 2.2rem;
+        margin-bottom: 50px;
+       }
+       .h2_contametuproyect{
+        font-size: 2.2rem;
+        margin-bottom: 50px;
+
+       }
+       .div_primerofooter{
+        width: 40%;
+        margin-right: 200px;
+        
+       }
+       .p_disfrutodiscutiendo{
+        font-size: 1.2rem;
+        line-height: 2rem;
+        margin-bottom: 50px;
+       }
+
+       .p_viviendoen{
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+       }
+       
+       .p_direccionfray{
+        margin-bottom: 10px;
+       }
+       .DIV_SOCIALMEDIASVG_FOOTER{
+        margin: 0;
+        padding-top: 30px;
+       }
+       .A_SVGSOCIAL_footer{
+        text-decoration: none;
+        color: lightslategray;
+        margin-right: 15px;
+        font-size: 1.5rem;
+       }
+
+        .div_segundofooter{
+        width: 45%;
+        
+        }
+        
+
+
+       form{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+       
+       }
+        label{
+        padding-bottom: 30px;
+        
+       }
+       .inputs{
+        margin-bottom: 30px;
+        border: 0;
+        border-bottom: 2px solid grey;
+        background-color: #EEE8AA;
+        width: 500px;
+       } 
+       form button{
+        width: 200px;
+        height: 60px;
+        color: #F8F9FA;
+        background-color: black;
+        font-size: 1rem;
+        font-weight: 600;
+        
+       }
+       form i{
+        font-size: 1rem;
+        text-align: center;
+        padding: 3px;
+       }
+
+        
+
+     
+     
+     
+     
 
 
 
